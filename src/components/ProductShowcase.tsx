@@ -15,11 +15,11 @@ const rotateX = useTransform(scrollYProgress, [0, 1], [15,0]);
 const opacity = useTransform(scrollYProgress, [0, 1], [.3,1]);
 
   return (
-    <div className="bg-black text-white bg-gradient-to-b from-black to-[#5D2CA8] py-[72px] sm:py-24">
+    <section id="#ui" className="bg-black text-white bg-gradient-to-b from-black to-[#5D2CA8] py-[72px] sm:py-24">
       <div className="container">
-        <h2 className="text-center text-5xl font-bold tracking-tighter">Intituve interface</h2>
+        <h2 className="text-center text-5xl font-bold tracking-tighter">Intuitive and Powerful</h2>
         <div className='max-w-xl mx-auto'>
-        <p className="text-xl text-white/70 text-center mt-5 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt minima odio ea debitis quisquam nobis. Eius fugit ut dolorem delectus.</p>
+        <p className="text-xl text-white/70 text-center mt-5 ">Interain combines a streamlined interface with advanced, AI-driven tools to personalize your interview prep journey. From resume feedback to practice quizzes, get everything you need to succeed—all in one place.</p>
         </div>
         <div className="flex justify-center">
         <motion.div
@@ -36,6 +36,6 @@ const opacity = useTransform(scrollYProgress, [0, 1], [.3,1]);
 
       </div>
 
-    </div>
+    </section>
   )
 };

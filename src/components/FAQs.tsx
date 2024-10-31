@@ -8,22 +8,22 @@ const items = [
   {
     question: "What payment methods do you accept?",
     answer:
-      "We accept all major credit cards, PayPal, and various other payment methods depending on your location. Please contact our support team for more information on accepted payment methods in your region.",
+      "We accept major credit and debit cards, UPI, and popular digital wallets. For more information on specific payment options, please reach out to our support team.",
   },
   {
-    question: "How does the pricing work for teams?",
+    question: "How much does Interain cost?",
     answer:
-      "Our pricing is per user, per month. This means you only pay for the number of team members you have on your account. Discounts are available for larger teams and annual subscriptions.",
+      "Interain offers flexible monthly and annual subscription options designed to fit individual needs. Pricing details can be found on our website or by contacting support for current offers.",
   },
   {
-    question: "Can I change my plan later?",
+    question: "Can I cancel my subscription at any time?",
     answer:
-      "Yes, you can upgrade or downgrade your plan at any time. Changes to your plan will be prorated and reflected in your next billing cycle.",
+      "Yes, you can cancel your subscription anytime through your account settings. Upon cancellation, you’ll continue to have access until the end of your current billing cycle.",
   },
   {
-    question: "Is my data secure?",
+    question: "Is my personal information secure?",
     answer:
-      "Security is our top priority. We use state-of-the-art encryption and comply with the best industry practices to ensure that your data is stored securely and accessed only by authorized users.",
+      "Absolutely. We use advanced encryption and adhere to industry best practices to ensure your data remains private and secure at all times.",
   },
 ];
 
